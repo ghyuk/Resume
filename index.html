@@ -1,0 +1,1325 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="KIM JI HYUK" />
+    <meta name="keywords" content="template, theme, portfolio, developer" />
+    <meta name="description" content="One Page Template for Developer Portfolio" />
+    <title>WEB DEVELOPER JI HYUK KIM's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;500;800&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500&display=swap" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/theme.css" />
+    <link rel="stylesheet" href="./css/theme-dark.css" media="(prefers-color-scheme: dark)">
+  </head>
+  <body>
+    <!--Thumbnail-->
+    <div style="display: none">
+      <img src="./assets/img/bg-dark-top.jpg" alt="">
+    </div>
+    <!-- Header 시작 -->
+    <header>
+      <div class="container">
+        <h1>WEB DEVELOPER</h1>
+        <h1><strong>김지혁</strong></h1>
+      </div>
+    </header>
+    <!-- Header 끝 -->
+    <!-- Navbar 시작 -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid text-uppercase">
+        <a class="navbar-brand" href="#">KIM JI HYUK</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse sticky-fixed" id="navbarNav">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#summary">Summary</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#project">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <!--<li class="nav-item">
+              <a class="nav-link" href="#education">Education</a>
+            </li>-->
+            <!--<li class="nav-item">
+              <a class="nav-link" href="#salary">Salary</a>
+            </li>-->
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <div class="btn-box">
+              <a href="JI%20HYUK%20KIM's%20Portfolio_Dark.pdf" id="btn-pdf" class="btn btn-3" download="김지혁_포트폴리오_Dark.pdf" target="_blank">SAVE PDF</a>
+            </div>
+            <button type="button" data-use-dark-mode="true" class="btn btn-dark btn-toggle me-2">
+              Dark
+            </button>
+            <button type="button" data-use-dark-mode="false" class="btn btn-light btn-toggle border">
+              Light
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar 끝 -->
+    <!-- Main 시작 -->
+    <main>
+      <!-- Summary 시작 -->
+      <section class="container pt mt" id="summary">
+        <div class="row">
+          <!--<div class="col-lg-8 mx-auto">-->
+            <h2 class="section-header fonsiz-xxxl fonwei-en-xxl letsp-sm text-upper color-basic">Summary</h2>
+            <p class="section-header fonsiz-xl fonwei-kr-xs letsp-xs ws-sm mt-4">
+              안녕하세요.<br>
+              더 새롭고, &nbsp;더 편리함을 창조하는 것에 매력을 느낀&nbsp;
+              <span style="white-space: nowrap"><span class="fonwei-en-xl letsp-md">자바 웹 개발자 김지혁</span> 입니다.</span><br>
+              세상을 바꾸는 여러분의 창조에 보탬이 되겠습니다.<br>
+              <span class="fonwei-en-xl letsp-md">도망치지 않아요.</span>
+            </p>
+          <!--</div>-->
+        </div>
+      </section>
+      <!-- Summary 끝 -->
+      <!-- Project 시작 -->
+      <section class="container pt mt" id="project">
+        <h2 class="section-header fonsiz-xxxl fonwei-en-xxl letsp-sm text-upper color-basic">Projects</h2>
+        <div class="section-desc fonsiz-sm color-basic-opac letsp-sm ws-xs mt-2 mb-4">
+          <!--저는 프로젝트의 시작보다는 마무리에 집중합니다.
+          한번 시작한 프로젝트는 혼자라도 반드시 마무리합니다.-->
+        </div>
+        <div class="card shadow">
+          <div class="card-body">
+            <div class="table-responsive">
+              <table class="table borderless table-hover align-middle">
+                <thead class="border-0 borderless" border="0">
+                  <tr class="fonsiz-sm fonwei-kr-md letsp-sm color-basic-opac text-center vertmid">
+                    <th>프로젝트</th>
+                    <th>소개</th>
+                    <th>개발 참여도</th>
+                    <th>추가 정보</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th class="table-title" scope="col">국가생명윤리정책원 시스템 고도화</th>
+                    <td>
+                      <div>[엔티시스]  국가생명윤리정책원</div>
+                      <div class="project-info">
+                        <span class="project-title">Spring Framework 기반의 연명의료중단 처리 시스템에서 병원, 보건복지부 API를 활용한 연명의료관리 시스템 개발</span><br>
+                        공인인증서 연동 / 연명의료 데이터 관리 / OZ Report를 활용한 서식 API 개발<br>
+                      </div>
+                      <div>
+                        <span class="badge bg-refactoring">Refactoring</span>
+                        <span class="badge bg-grey">Java</span>
+                        <span class="badge bg-grey">JavaScript</span>
+                        <span class="badge bg-grey">Jsp</span>
+                        <span class="badge bg-grey">HTML5 and CSS3</span>
+                        <span class="badge bg-grey">PostgreSQL</span>
+                        <span class="badge bg-grey">Spring Framework</span>
+                        <span class="badge bg-grey">MyBatis</span>
+                        <span class="badge bg-grey">RESTful API</span>
+                        <span class="badge bg-grey">Oz Report</span>
+                        <span class="badge bg-grey">Ajax</span>
+                        <span class="badge bg-grey">XML</span>
+                        <span class="badge bg-grey">CentOS</span>
+                        <span class="badge bg-grey">WAS</span>
+                      </div>
+                    </td>
+                    <td class="text-center">
+                      <div class="">( 3 M/M)</div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-striped bg-info" style="width: 100%">
+                          <span class="progress-desc">100%</span>
+                        </div>
+                      </div>
+                      <div class="progress-desc">프론트 & 백엔드 개발</div>
+                    </td>
+                    <td class="text-center">
+                      <span class="text-muted" data-bs-toggle="modal" data-bs-target="#Modal10">
+                        <i class="bi bi-file-earmark-slides"></i>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th class="table-title" scope="col">성북구 도시관리공단 보육 시스템</th>
+                    <td>
+                      <div>[엔티시스]  성북구 도시관리공단</div>
+                      <div class="project-info">
+                        <span class="project-title">ASP, MSSQL로 개발된 보육 홈페이지 및 관리 시스템을 Spring Framework 기반의 Gradle, JSP, Maria DB로 리팩토링</span><br>
+                        프로젝트 셋팅 / 공통 게시판 성 메뉴(공지사항, Q&A, FAQ 등) 데이터베이스 설계 및 로직 / 공통 컨텐츠 성 메뉴 데이터베이스 설계 및 구현 / 기존 데이터 이관
+                      </div>
+                      <div>
+                        <span class="badge bg-refactoring">Refactoring</span>
+                        <span class="badge bg-grey">Java</span>
+                        <span class="badge bg-grey">JavaScript</span>
+                        <span class="badge bg-grey">Jsp</span>
+                        <span class="badge bg-grey">Asp</span>
+                        <span class="badge bg-grey">HTML5 and CSS3</span>
+                        <span class="badge bg-grey">Spring Framework</span>
+                        <span class="badge bg-grey">Gradle</span>
+                        <span class="badge bg-grey">MyBatis</span>
+                        <span class="badge bg-grey">Maria DB</span>
+                        <span class="badge bg-grey">MsSQL</span>
+                        <span class="badge bg-grey">Ajax</span>
+                        <span class="badge bg-grey">XML</span>
+                        <span class="badge bg-grey">Windows Server 2012 R2</span>
+                        <span class="badge bg-grey">WAS</span>
+                      </div>
+                    </td>
+                    <td class="text-center">
+                      <div class="">( 5 M/M)</div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-striped bg-info" style="width: 100%">
+                          <span class="progress-desc">100%</span>
+                        </div>
+                      </div>
+                      <div class="progress-desc">프론트 & 백엔드 개발</div>
+                    </td>
+                    <td class="text-center">
+                      <span class="text-muted" data-bs-toggle="modal" data-bs-target="#Modal9">
+                        <i class="bi bi-file-earmark-slides"></i>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th class="table-title" scope="col">경기도 외국인 코로나 생활안정지원금</th>
+                    <td>
+                      <div>[엔티시스]  경기도</div>
+                      <div class="project-info">
+                        <span class="project-title">Spring Framework 기반의 경기도 거주 외국인 코로나 생활안정지원금 신청 및 관리 시스템 개발</span><br>
+                        데이터베이스 설계 / 휴대폰 인증 / 시민의 가족 구성원 수, 국적 베이스로 지원금 계산 및 신청 / 주민센터 방문 신청 / 주민센터 직원의 신청 관리 및 통계
+                      </div>
+                      <div>
+                        <span class="badge bg-done">Done</span>
+                        <span class="badge bg-grey">Java</span>
+                        <span class="badge bg-grey">JavaScript</span>
+                        <span class="badge bg-grey">Jsp</span>
+                        <span class="badge bg-grey">HTML5 and CSS3</span>
+                        <span class="badge bg-grey">Spring Framework</span>
+                        <span class="badge bg-grey">MyBatis</span>
+                        <span class="badge bg-grey">MySQL</span>
+                        <span class="badge bg-grey">Ajax</span>
+                        <span class="badge bg-grey">XML</span>
+                        <span class="badge bg-grey">CentOS</span>
+                        <span class="badge bg-grey">WAS</span>
+                      </div>
+                    </td>
+                    <td class="text-center">
+                      <div class="">( 1 M/M)</div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-striped bg-info" style="width: 100%">
+                          <span class="progress-desc">100%</span>
+                        </div>
+                      </div>
+                      <div class="progress-desc">프론트 & 백엔드 단독 개발</div>
+                    </td>
+                    <td class="text-center">
+                      <span class="text-muted" data-bs-toggle="modal" data-bs-target="#Modal8">
+                        <i class="bi bi-file-earmark-slides"></i>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th class="table-title" scope="col">안산시 코로나 생활안정지원금</th>
+                    <td>
+                      <div>[엔티시스]  안산시</div>
+                      <div class="project-info">
+                        <span class="project-title">Spring Framework 기반의 안산시민 코로나 생활안정지원금 신청 및 관리 시스템 개발</span><br>
+                        데이터베이스 설계 / 휴대폰 인증 / 시민의 가족 구성원 수, 국적 베이스로 지원금 계산 및 신청 / 주민센터 방문 신청 / 주민센터 직원의 신청 관리 및 통계 / 안산다온카드 연계
+                      </div>
+                      <div>
+                        <span class="badge bg-done">Done</span>
+                        <span class="badge bg-grey">Java</span>
+                        <span class="badge bg-grey">JavaScript</span>
+                        <span class="badge bg-grey">Jsp</span>
+                        <span class="badge bg-grey">HTML5 and CSS3</span>
+                        <span class="badge bg-grey">Spring Framework</span>
+                        <span class="badge bg-grey">MyBatis</span>
+                        <span class="badge bg-grey">MySQL</span>
+                        <span class="badge bg-grey">Ajax</span>
+                        <span class="badge bg-grey">XML</span>
+                        <span class="badge bg-grey">CentOS</span>
+                        <span class="badge bg-grey">WAS</span>
+                      </div>
+                    </td>
+                    <td class="text-center">
+                      <div class="">( 2 M/M)</div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-striped bg-info" style="width: 100%">
+                          <span class="progress-desc">100%</span>
+                        </div>
+                      </div>
+                      <div class="progress-desc">프론트 & 백엔드 개발</div>
+                    </td>
+                    <td class="text-center">
+                      <span class="text-muted" data-bs-toggle="modal" data-bs-target="#Modal7">
+                        <i class="bi bi-file-earmark-slides"></i>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th class="table-title" scope="col">아워홈 후레쉬한레시피</th>
+                    <td>
+                      <div>[엔티시스]  아워홈</div>
+                      <div class="project-info">
+                        <span class="project-title">아워홈 후레쉬한레시피 웹 앱, 관리 시스템 개발</span><br>
+                        레시피 이미지 및 컨텐츠 관리 / 레시피 투표 및 통계 / 레시피 메인, 상세 구현 / 즐겨찾기 구현
+                      </div>
+                      <div>
+                        <span class="badge bg-done">Done</span>
+                        <span class="badge bg-grey">Java</span>
+                        <span class="badge bg-grey">JavaScript</span>
+                        <span class="badge bg-grey">Jsp</span>
+                        <span class="badge bg-grey">HTML5 and CSS3</span>
+                        <span class="badge bg-grey">Spring Framework</span>
+                        <span class="badge bg-grey">MyBatis</span>
+                        <span class="badge bg-grey">Oracle DB</span>
+                        <span class="badge bg-grey">Ajax</span>
+                        <span class="badge bg-grey">XML</span>
+                      </div>
+                    </td>
+                    <td class="text-center">
+                      <div class="">( 1 M/M)</div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-striped bg-info" style="width: 100%">
+                          <span class="progress-desc">100%</span>
+                        </div>
+                      </div>
+                      <div class="progress-desc">프론트 & 백엔드 단독 개발</div>
+                    </td>
+                    <td class="text-center">
+                      <span class="text-muted" data-bs-toggle="modal" data-bs-target="#Modal6">
+                        <i class="bi bi-file-earmark-slides"></i>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th class="table-title" scope="col">아워홈 지리산수 정기배송</th>
+                    <td>
+                      <div>[엔티시스]  아워홈</div>
+                      <div class="project-info">
+                        <span class="project-title">아워홈 지리산수 정기배송 웹 앱 개발</span><br>
+                        지리산수 정기 배송 메인 / 상품 상세 / 장바구니 / 결제페이지 / 정기배송 카드관리 / 주문조회 / 소셜 계정 연계
+                      </div>
+                      <div>
+                        <span class="badge bg-done">Done</span>
+                        <span class="badge bg-grey">Java</span>
+                        <span class="badge bg-grey">JavaScript</span>
+                        <span class="badge bg-grey">Jsp</span>
+                        <span class="badge bg-grey">HTML5 and CSS3</span>
+                        <span class="badge bg-grey">Spring Framework</span>
+                        <span class="badge bg-grey">MyBatis</span>
+                        <span class="badge bg-grey">Oracle DB</span>
+                        <span class="badge bg-grey">Ajax</span>
+                        <span class="badge bg-grey">XML</span>
+                      </div>
+                    </td>
+                    <td class="text-center">
+                      <div class="">( 3 M/M)</div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-striped bg-info" style="width: 100%">
+                          <span class="progress-desc">100%</span>
+                        </div>
+                      </div>
+                      <div class="progress-desc">프론트 & 백엔드 개발</div>
+                    </td>
+                    <td class="text-center">
+                      <span class="text-muted" data-bs-toggle="modal" data-bs-target="#Modal5">
+                        <i class="bi bi-file-earmark-slides"></i>
+                      </span>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <th class="table-title" scope="col">Rwanda Government GroupWare Management</th>
+                    <td>
+                      <div>[더브릿지소프트]  RDB(르완다개발위원회), RISA(르완다정보사회국) 등</div>
+                      <div class="project-info">
+                        <span class="project-title">르완다 정부 기관의 그룹웨어 기관 관리 시스템 개발</span><br>
+                        Zimbra, Active Directory, OpenLDAP API 연계 / 기관의 부서 관리 / 기관 관리자 및 대표 사용자 관리 / 기관 사용자 관리
+                      </div>
+                      <div>
+                        <span class="badge bg-done">Done</span>
+                        <span class="badge bg-grey">Java</span>
+                        <span class="badge bg-grey">JavaScript</span>
+                        <span class="badge bg-grey">Jsp</span>
+                        <span class="badge bg-grey">HTML5 and CSS3</span>
+                        <span class="badge bg-grey">Bootstrap 4</span>
+                        <span class="badge bg-grey">Spring Framework</span>
+                        <span class="badge bg-grey">MyBatis</span>
+                        <span class="badge bg-grey">MySQL</span>
+                        <span class="badge bg-grey">Zimbra</span>
+                        <span class="badge bg-grey">Active Directory</span>
+                        <span class="badge bg-grey">OpenLDAP</span>
+                        <span class="badge bg-grey">Ajax</span>
+                        <span class="badge bg-grey">XML</span>
+                        <span class="badge bg-grey">CentOS</span>
+                        <span class="badge bg-grey">WAS</span>
+                        <span class="badge bg-grey">Apache Web Server</span>
+                      </div>
+                    </td>
+                    <td class="text-center">
+                      <div class="">( 4 M/M)</div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-striped bg-info" style="width: 100%">
+                          <span class="progress-desc">100%</span>
+                        </div>
+                      </div>
+                      <div class="progress-desc">프론트 & 백엔드 단독 개발</div>
+                    </td>
+                    <td class="text-center">
+                      <span class="text-muted" data-bs-toggle="modal" data-bs-target="#Modal4">
+                        <i class="bi bi-file-earmark-slides"></i>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th class="table-title" scope="col">Rwanda Government GroupWare Supervisor</th>
+                    <td>
+                      <div>[더브릿지소프트]  RDB(르완다개발위원회), RISA(르완다정보사회국) 등</div>
+                      <div class="project-info">
+                        <span class="project-title">르완다 정부 기관의 그룹웨어 수퍼 관리자 시스템 개발</span><br>
+                        Zimbra, Active Directory, OpenLDAP API 연계 / 기관 관리 / 기관 추가 시 DB 스키마 자동 추가 / 기관 수퍼 관리자 관리 / 기관 사용 시스템 관리
+                      </div>
+                      <div>
+                        <span class="badge bg-done">Done</span>
+                        <span class="badge bg-grey">Java</span>
+                        <span class="badge bg-grey">JavaScript</span>
+                        <span class="badge bg-grey">Jsp</span>
+                        <span class="badge bg-grey">HTML5 and CSS3</span>
+                        <span class="badge bg-grey">Bootstrap 4</span>
+                        <span class="badge bg-grey">Spring Framework</span>
+                        <span class="badge bg-grey">MyBatis</span>
+                        <span class="badge bg-grey">MySQL</span>
+                        <span class="badge bg-grey">Zimbra</span>
+                        <span class="badge bg-grey">Active Directory</span>
+                        <span class="badge bg-grey">OpenLDAP</span>
+                        <span class="badge bg-grey">Ajax</span>
+                        <span class="badge bg-grey">XML</span>
+                        <span class="badge bg-grey">CentOS</span>
+                        <span class="badge bg-grey">WAS</span>
+                        <span class="badge bg-grey">Apache Web Server</span>
+                      </div>
+                    </td>
+                    <td class="text-center">
+                      <div class="">( 2 M/M)</div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-striped bg-info" style="width: 100%">
+                          <span class="progress-desc">100%</span>
+                        </div>
+                      </div>
+                      <div class="progress-desc">프론트 & 백엔드 단독 개발</div>
+                    </td>
+                    <td class="text-center">
+                      <span class="text-muted" data-bs-toggle="modal" data-bs-target="#Modal3">
+                        <i class="bi bi-file-earmark-slides"></i>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th class="table-title" scope="col">Rwanda Government GroupWare</th>
+                    <td>
+                      <div>[더브릿지소프트]  RDB(르완다개발위원회), RISA(르완다정보사회국) 등</div>
+                      <div class="project-info">
+                        <span class="project-title">르완다 정부 기관의 그룹웨어 신규 개발</span><br>
+                        Spring Framework 기반의 Zimbra, Active Directory, OpenLDAP API 연계로 Task 구현 / 기관,부서별 게시판 구현 / 연락처 구현
+                        / 르완다 시민 대상 민원 신청 및 관리 구현 / 르완다 현지 5개월 상주 / 현지 개발자 교육 / 디자인 업체 관리 / 각 기관별 Zimbra 메일서버, DB 서버 단독 구축 및 관리
+                      </div>
+                      <div>
+                        <span class="badge bg-done">Done</span>
+                        <span class="badge bg-grey">Java</span>
+                        <span class="badge bg-grey">JavaScript</span>
+                        <span class="badge bg-grey">Jsp</span>
+                        <span class="badge bg-grey">HTML5 and CSS3</span>
+                        <span class="badge bg-grey">Bootstrap 4</span>
+                        <span class="badge bg-grey">Spring Framework</span>
+                        <span class="badge bg-grey">MyBatis</span>
+                        <span class="badge bg-grey">MySQL</span>
+                        <span class="badge bg-grey">Zimbra</span>
+                        <span class="badge bg-grey">Active Directory</span>
+                        <span class="badge bg-grey">OpenLDAP</span>
+                        <span class="badge bg-grey">Ajax</span>
+                        <span class="badge bg-grey">XML</span>
+                        <span class="badge bg-grey">CentOS</span>
+                        <span class="badge bg-grey">WAS</span>
+                        <span class="badge bg-grey">Apache Web Server</span>
+                      </div>
+                    </td>
+                    <td class="text-center">
+                      <div class="">( 17 M/M)</div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-striped bg-info" style="width: 100%">
+                          <span class="progress-desc">100%</span>
+                        </div>
+                      </div>
+                      <div class="progress-desc">프론트 & 백엔드 개발</div>
+                    </td>
+                    <td class="text-center">
+                      <span class="text-muted" data-bs-toggle="modal" data-bs-target="#Modal2">
+                        <i class="bi bi-file-earmark-slides"></i>
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th class="table-title" scope="col">KTRN Mobile Top-up</th>
+                    <td>
+                      <div>[더브릿지소프트]  KTRN</div>
+                      <div class="project-info">
+                        <span class="project-title">KT 르완다 지사의 스마트폰 선불 충전 앱에서 사용할 게이트웨이 및 모니터링 사이트 개발</span><br>
+                        XML to JSON, JSON to XML 파싱 / 트랜잭션 모니터링 사이트 구현
+                      </div>
+                      <div>
+                        <span class="badge bg-done">Done</span>
+                        <span class="badge bg-grey">Java</span>
+                        <span class="badge bg-grey">JavaScript</span>
+                        <span class="badge bg-grey">Jsp</span>
+                        <span class="badge bg-grey">HTML5 and CSS3</span>
+                        <span class="badge bg-grey">Bootstrap 4</span>
+                        <span class="badge bg-grey">MySQL</span>
+                        <span class="badge bg-grey">API</span>
+                        <span class="badge bg-grey">Ajax</span>
+                        <span class="badge bg-grey">XML</span>
+                      </div>
+                    </td>
+                    <td class="text-center">
+                      <div class="">( 1 M/M)</div>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-striped bg-info" style="width: 100%">
+                          <span class="progress-desc">100%</span>
+                        </div>
+                      </div>
+                      <div class="progress-desc">프론트 & 백엔드 개발</div>
+                    </td>
+                    <td class="text-center">
+                      <span class="text-muted" data-bs-toggle="modal" data-bs-target="#Modal1">
+                        <i class="bi bi-file-earmark-slides"></i>
+                      </span>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <!--모달영역시작-->
+            <div class="modal fade" id="Modal10" tabindex="-1" aria-labelledby="Modal10Label" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="Modal10Label">PROJECT INFO</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="./assets/img/project_info/lst.png" alt="" style="max-width: 100%;">
+                    <p class="modal-desc">
+                      <span class="project-title">Spring Framework 기반의 연명의료중단 처리 시스템에서 병원, 보건복지부 API를 활용한 연명의료관리 시스템 개발</span>
+                    </p>
+                    <ul class="project-detail">
+                      <li>공인인증서 연동</li>
+                      <li>연명의료 데이터 관리</li>
+                      <li>OZ Report를 활용한 서식 API 개발</li>
+                    </ul>
+                  </div>
+                  <div class="modal-footer">
+                    <a href="https://www.lst.go.kr/main/main.do" class="btn btn-outline-secondary" target="_sub">
+                      Link
+                    </a>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="Modal9" tabindex="-1" aria-labelledby="Modal9Label" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="Modal9Label">PROJECT INFO</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="./assets/img/project_info/childCare.png" alt="" style="max-width: 100%;">
+                    <p class="modal-desc">
+                      <span class="project-title">ASP, MSSQL로 개발된 보육 홈페이지 및 관리 시스템을 Spring Framework 기반의 Gradle, JSP, Maria DB로 리팩토링</span>
+                    </p>
+                    <ul class="project-detail">
+                      <li>프로젝트 셋팅</li>
+                      <li>공통 게시판 성 메뉴(공지사항, Q&A, FAQ 등) 데이터베이스 설계 및 로직</li>
+                      <li>공통 컨텐츠 성 메뉴 데이터베이스 설계 및 구현</li>
+                      <li>기존 데이터 이관</li>
+                    </ul>
+                  </div>
+                  <div class="modal-footer">
+                    <a href="https://www.gongdan.go.kr/childCare/main/main.do" class="btn btn-outline-secondary" target="_sub">Link</a>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="Modal8" tabindex="-1" aria-labelledby="Modal8Label" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="Modal8Label">PROJECT INFO</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="./assets/img/project_info/ansan.png" alt="" style="max-width: 100%;">
+                    <p class="modal-desc">
+                      <span class="project-title">Spring Framework 기반의 경기도 거주 외국인 코로나 생활안정지원금 신청 및 관리 시스템 개발</span>
+                    </p>
+                    <ul class="project-detail">
+                      <li>데이터베이스 설계</li>
+                      <li>휴대폰 인증</li>
+                      <li>시민의 가족 구성원 수, 국적 베이스로 지원금 계산 및 신청</li>
+                      <li>주민센터 방문 신청</li>
+                      <li>주민센터 직원의 신청 관리 및 통계</li>
+                    </ul>
+                    <p class="modal-desc">서비스 종료</p>
+                  </div>
+                  <div class="modal-footer">
+                    <a href="https://daon.ansan.go.kr/disaster/main/main.do" class="btn btn-outline-secondary" target="_sub">Link</a>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="Modal7" tabindex="-1" aria-labelledby="Modal7Label" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="Modal7Label">PROJECT INFO</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="./assets/img/project_info/ansan.png" alt="" style="max-width: 100%;">
+                    <p class="modal-desc">
+                      <span class="project-title">Spring Framework 기반의 안산시민 코로나 생활안정지원금 신청 및 관리 시스템 개발</span>
+                    </p>
+                    <ul class="project-detail">
+                      <li>데이터베이스 설계</li>
+                      <li>휴대폰 인증</li>
+                      <li>시민의 가족 구성원 수, 국적 베이스로 지원금 계산 및 신청</li>
+                      <li>주민센터 방문 신청</li>
+                      <li>주민센터 직원의 신청 관리 및 통계</li>
+                      <li>안산다온카드 연계</li>
+                    </ul>
+                    <p class="modal-desc">서비스 종료</p>
+                  </div>
+                  <div class="modal-footer">
+                    <a href="https://daon.ansan.go.kr/disaster/main/main.do" class="btn btn-outline-secondary" target="_sub">Link</a>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="Modal6" tabindex="-1" aria-labelledby="Modal6Label" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="Modal6Label">PROJECT INFO</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="./assets/img/project_info/jirisansoo.png" alt="" style="max-width: 100%;">
+                    <p class="modal-desc">
+                      <span class="project-title">아워홈 후레쉬한레시피 웹 앱, 관리 시스템 개발</span>
+                    </p>
+                    <ul class="project-detail">
+                      <li>레시피 이미지 및 컨텐츠 관리</li>
+                      <li>레시피 투표 및 통계</li>
+                      <li>레시피 메인, 상세 구현</li>
+                      <li>즐겨찾기 구현</li>
+                    </ul>
+                    <p class="modal-desc">서비스 종료</p>
+                  </div>
+                  <div class="modal-footer">
+                    <a href="https://fresh.ourhome.co.kr/fresh/main.do" class="btn btn-outline-secondary" target="_sub">Link</a>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="Modal5" tabindex="-1" aria-labelledby="Modal5Label" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="Modal5Label">PROJECT INFO</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="./assets/img/project_info/jirisansoo.png" alt="" style="max-width: 100%;">
+                    <p class="modal-desc">
+                      <span class="project-title">아워홈 지리산수 정기배송 웹 앱 개발</span>
+                    </p>
+                    <ul class="project-detail">
+                      <li>지리산수 정기 배송 메인</li>
+                      <li>상품 상세</li>
+                      <li>장바구니</li>
+                      <li>결제페이지</li>
+                      <li>정기배송 카드관리</li>
+                      <li>주문조회</li>
+                      <li>소셜 계정 연계</li>
+                    </ul>
+                  </div>
+                  <div class="modal-footer">
+                    <a href="https://jirisansoo.ourhome.co.kr/jirisansoo/main.do" class="btn btn-outline-secondary" target="_sub">Link</a>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="Modal4" tabindex="-1" aria-labelledby="Modal4Label" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="Modal4Label">PROJECT INFO</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="./assets/img/project_info/gwsas.png" alt="" style="max-width: 100%;">
+                    <p class="modal-desc">
+                      <span class="project-title">르완다 정부 기관의 그룹웨어 기관 관리 시스템 개발</span>
+                    </p>
+                    <ul class="project-detail">
+                      <li>Zimbra, Active Directory, OpenLDAP API 연계</li>
+                      <li>기관의 부서 관리</li>
+                      <li>기관 관리자 및 대표 사용자 관리</li>
+                      <li>기관 사용자 관리</li>
+                    </ul>
+                  </div>
+                  <div class="modal-footer">
+                    <a href="https://smartadmin.gov.rw/admin.do" class="btn btn-outline-secondary" target="_sub">Link</a>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="Modal3" tabindex="-1" aria-labelledby="Modal3Label" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="Modal3Label">PROJECT INFO</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="./assets/img/project_info/gwsas.png" alt="" style="max-width: 100%;">
+                    <p class="modal-desc">
+                      <span class="project-title">르완다 정부 기관의 그룹웨어 수퍼 관리자 시스템 개발</span>
+                    </p>
+                    <ul class="project-detail">
+                      <li>Zimbra, Active Directory, OpenLDAP API 연계</li>
+                      <li>기관 관리</li>
+                      <li>기관 추가 시 DB 스키마 자동 추가</li>
+                      <li>기관 수퍼 관리자 관리</li>
+                      <li>기관 사용 시스템 관리</li>
+                    </ul>
+                  </div>
+                  <div class="modal-footer">
+                    <a href="https://smartadmin.gov.rw/admin.do" class="btn btn-outline-secondary" target="_sub">Link</a>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="Modal2" tabindex="-1" aria-labelledby="Modal2Label" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="Modal2Label">PROJECT INFO</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="./assets/img/project_info/gwsas.png" alt="" style="max-width: 100%;">
+                    <p class="modal-desc">
+                      <span class="project-title">르완다 정부 기관의 그룹웨어 신규 개발</span>
+                    </p>
+                    <ul class="project-detail">
+                      <li>Spring Framework 기반의 Zimbra, Active Directory, OpenLDAP API 연계</li>
+                      <li>Task 구현</li>
+                      <li>기관,부서별 게시판 구현</li>
+                      <li>연락처 구현</li>
+                      <li>르완다 시민 대상 민원 신청 및 관리 구현</li>
+                      <li>르완다 현지 5개월 상주</li>
+                      <li>현지 개발자 교육</li>
+                      <li>디자인 업체 관리</li>
+                      <li>각 기관별 Zimbra 메일서버, DB 서버 단독 구축 및 관리</li>
+                    </ul>
+                  </div>
+                  <div class="modal-footer">
+                    <a href="https://smartadmin.gov.rw/logn/LoginUsr.do" class="btn btn-outline-secondary" target="_sub">Link</a>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="Modal1" tabindex="-1" aria-labelledby="Modal1Label" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="Modal1Label">PROJECT INFO</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="./assets/img/project_info/ktrn.png" alt="" style="max-width: 100%;">
+                    <p class="modal-desc">
+                      <span class="project-title">KT 르완다 지사의 스마트폰 선불 충전 앱에서 사용할 게이트웨이 및 모니터링 사이트 개발</span>
+                    </p>
+                    <ul class="project-detail">
+                      <li>XML to JSON, JSON to XML 파싱</li>
+                      <li>트랜잭션 모니터링 사이트 구현</li>
+                    </ul>
+                  </div>
+                  <div class="modal-footer">
+                    <a href="https://apps.apple.com/kr/app/lterwa/id1389758046?l=en" class="btn btn-outline-secondary" target="_sub">Link</a>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--모달영역끝-->
+            <div class="table-desc fonsiz-xs fonwei-kr-sm letsp-sm text-center color-basic-opac">프로젝트들은 최근 개발한 순으로 정렬되어 있습니다</div>
+          </div>
+        </div>
+      </section>
+      <!-- Project 끝 -->
+      <section class="container pt mt mb-5" id="skills">
+        <h2 class="section-header fonsiz-xxxl fonwei-en-xxl letsp-sm text-upper color-basic">Skills</h2>
+        <div class="section-desc fonsiz-sm color-basic-opac letsp-sm ws-xs mt-2 mb-4">
+          <!--만들고자 하는 목표에 대해 필요한 기술들을 빠르게 습득하고 구현합니다.
+          할 수 있는 경계선을 더 넓혀 나가고자 합니다.-->
+        </div>
+        <div class="card shadow">
+          <div class="card-body">
+            <div class="table-responsive">
+              <table class="table table-hover align-middle">
+                <thead>
+                  <tr class="fonsiz-sm fonwei-kr-md letsp-sm color-basic-opac text-center vertmid">
+                    <th>기술 구분</th>
+                    <th></th>
+                    <th>활용 수준</th>
+                    <th>평가</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="col" class="table-title letsp-md">Java</th>
+                    <td>
+                      <a href="https://ko.wikipedia.org/wiki/%EC%9E%90%EB%B0%94_(%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D_%EC%96%B8%EC%96%B4)" target="_blank">
+                        <img src="./assets/img/stack_info/java.png" alt="Java Logo" />
+                      </a>
+                    </td>
+                    <td>
+                      <span class="ls-0">Java</span>
+                      를 주 언어로 사용하며 제한된 리소스를 효율적으로 활용하여
+                      <span class="ls-0">객체 지향적 개발</span>이 가능합니다.<br/>
+                    </td>
+                    <td>
+                      <div class="star-icon text-center">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="col" class="table-title letsp-md">JavaScript</th>
+                    <td>
+                      <a href="https://ko.wikipedia.org/wiki/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8" target="_blank">
+                        <img src="./assets/img/stack_info/js.png" alt="JavaScript Logo" />
+                      </a>
+                    </td>
+                    <td>
+                      <span class="ls-0">JavaScript, JQuery</span>
+                      를 활용하여 웹 페이지를 개발하며 Ajax 기술 등을 사용하여 서버와 통신합니다.<br>
+                      브라우저 호환성을 중요시하여 IE 환경에서도 정상 작동하도록 개발하고 있습니다.
+                    </td>
+                    <td>
+                      <div class="star-icon text-center">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="col" class="table-title letsp-md">JSP</th>
+                    <td>
+                      <a href="https://ko.wikipedia.org/wiki/%EC%9E%90%EB%B0%94%EC%84%9C%EB%B2%84_%ED%8E%98%EC%9D%B4%EC%A7%80" target="_blank">
+                        <img src="./assets/img/stack_info/jsp.png" alt="JSP Logo" />
+                      </a>
+                    </td>
+                    <td>
+                      <span class="ls-0">JSP와 JSTL</span>
+                      을 사용하여 유지보수에 용이한 코드로 동적인 웹 페이지를 능숙하게 개발합니다.
+                    </td>
+                    <td>
+                      <div class="star-icon text-center">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="col" class="table-title letsp-md">Spring Framework</th>
+                    <td>
+                      <a href="https://ko.wikipedia.org/wiki/%EC%8A%A4%ED%94%84%EB%A7%81_%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC" target="_blank">
+                        <img src="./assets/img/stack_info/spring.png" alt="Spring Logo" />
+                      </a>
+                    </td>
+                    <td>
+                      <span class="ls-0">Spring Framework</span>
+                      기반 MVC 패턴의 프로젝트를 Maven 또는 Gradle을 활용하여 시스템을 구현합니다.<br>
+                      다양한 라이브러리를 사용하여 개발할 수 있습니다.
+                    </td>
+                    <td>
+                      <div class="star-icon text-center">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="col" class="table-title letsp-md">MySQL</th>
+                    <td>
+                      <a href="https://ko.wikipedia.org/wiki/MySQL" target="_blank">
+                        <img src="./assets/img/stack_info/mySql.png" alt="MySQL Logo" />
+                      </a>
+                    </td>
+                    <td>
+                      Spring MVC 패턴의 프로젝트에서 MyBatis를 이용한 데이터베이스 쿼리를 사용합니다.<br>
+                      서버 사이드의 Replication 기술로 데이터베이스를 이중화하여 Master/Slave로 데이터를 안전하게 관리할 수 있습니다.
+                      데이터 베이스 설계 경험으로 데이터 베이스 설계 시 서포트가 가능합니다.<br>
+                    </td>
+                    <td>
+                      <div class="star-icon text-center">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="col" class="table-title letsp-md">Oracle DB</th>
+                    <td>
+                      <a href="https://ko.wikipedia.org/wiki/%EC%98%A4%EB%9D%BC%ED%81%B4_%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4" target="_blank">
+                        <img src="./assets/img/stack_info/oracle.png" alt="Oracle Logo" />
+                      </a>
+                    </td>
+                    <td>
+                      Spring MVC 패턴의 프로젝트에서 MyBatis를 이용한 데이터베이스 쿼리를 사용합니다.<br>
+                      프로시져를 작성/수정 하여 대량 자료를 처리 시 서버 부하를 분산 시킬 수 있습니다.
+                      데이터 베이스 설계 경험으로 데이터 베이스 설계 시 서포트가 가능합니다.<br>
+                    </td>
+                    <td>
+                      <div class="star-icon text-center">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="col" class="table-title letsp-md">Cent OS</th>
+                    <td>
+                      <a href="https://ko.wikipedia.org/wiki/CentOS" target="_blank">
+                        <img src="./assets/img/stack_info/centos.png" alt="CentOS Logo" />
+                      </a>
+                    </td>
+                    <td>
+                      Saas방식의 그룹웨어 서버와 각 정부 기관별 80여개의 서버에 메일, 데이터베이스 등의 환경을 단독으로 구축한 경험이 있습니다. <br>
+                      Tomcat Logrotation / Apache & Tomcat Load Balancing / MySQL Replication 등의 기술 활용이 가능합니다.
+                    </td>
+                    <td>
+                      <div class="star-icon text-center">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="col" class="table-title letsp-md">Docker</th>
+                    <td>
+                      <a href="https://ko.wikipedia.org/wiki/%EB%8F%84%EC%BB%A4_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4)" target="_blank">
+                        <img src="./assets/img/stack_info/docker.png" alt="Docker Logo" />
+                      </a>
+                    </td>
+                    <td>
+                      경량화된 여러 모듈을 Container에 배포하여 서비스 할 수 있습니다.
+                    </td>
+                    <td>
+                      <div class="star-icon text-center">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="table-desc fonsiz-xs fonwei-kr-sm letsp-sm text-center color-basic-opac">객관화하기 어려운 관계로, 제가 이해하고 구현할 수 있는 수준을 작성했습니다.</div>
+          </div>
+        </div>
+      </section>
+      <!--<div style="display: none">
+      <section id="charts" class="container">
+        <div class="row">
+          <div class="col-sm-6 col-lg-3 d-flex align-items-stretch">
+            <div class="card mb-3">
+              <div class="pt-5 pb-4">
+                <canvas id="chart1"></canvas>
+              </div>
+              <div class="card-body">
+                <div>
+                  <h4 class="card-title fonsiz-xl fonwei-en-xxl letsp-xxl text-upper text-center text-primary">Front End</h4>
+                </div>
+                <div class="card-text fonsiz-sm fonwei-kr-sm letsp-sm mb-3 mt-3 px-2">
+                  <span class="ls-0">JQuery, JavaScript</span>
+                  를 많이 사용해 왔으며 자신 있는 언어입니다.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3 d-flex align-items-stretch">
+            <div class="card mb-3">
+              <div class="pt-5 pb-4">
+                <canvas id="chart2"></canvas>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title fonsiz-xl fonwei-en-xxl letsp-xxl text-upper text-center text-primary">Back end</h4>
+                <div class="card-text fonsiz-sm fonwei-kr-sm letsp-sm mb-3 mt-3 px-2">
+                  <span class="ls-0">Java</span>
+                  를 가장 많이 사용하며
+                  <span class="ls-0">Spring Framework </span>
+                  프레임워크를 활용하고 있습니다.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3 d-flex align-items-stretch">
+            <div class="card mb-3">
+              <div class="pt-5 pb-4">
+                <canvas id="chart3"></canvas>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title fonsiz-xl fonwei-en-xxl letsp-xxl text-upper text-center text-primary">Data base</h4>
+                <div class="card-text fonsiz-sm fonwei-kr-sm letsp-sm mb-3 mt-3 px-2">
+                  <span class="ls-0">MySQL</span>
+                  주로 활용하지만
+                  <span class="ls-0">Oracle DB</span>
+                  도 사용하고 있습니다.
+                  <span class="ls-0">PostgreSQL</span>
+                  을 공부하고 있습니다.</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3 d-flex align-items-stretch">
+            <div class="card mb-3">
+              <div class="pt-5 pb-4">
+                <canvas id="chart4"></canvas>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title fonsiz-xl fonwei-en-xxl letsp-xxl text-upper text-center text-primary">Utilities</h4>
+                <div class="card-text fonsiz-sm fonwei-kr-sm letsp-sm mb-3 mt-3 px-2">
+                  <span class="ls-0">GitHub, SVN, Redmine, SSH, ER-Win, AdobeXd</span>
+                  등을 사용하고 있습니다. 다양한 툴을 사용하는것을 좋아합니다.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      </div>
+      &lt;!&ndash;<div style="display: none">
+      <section class="container pt mt" id="education">
+        <h2 class="section-header fonsiz-xxxl fonwei-en-xxl letsp-sm text-upper color-basic">Education</h2>
+        <div class="section-desc fonsiz-sm color-basic-opac letsp-sm ws-xs mt-2 mb-4">
+          &lt;!&ndash;오직 한길만 보고 성실하게, 열심히 노력해 왔습니다. 항상 최선을 다하고 더 높은 것을 추구합니다.&ndash;&gt;
+        </div>
+        <div class="row">
+          <div class="col-sm-12 col-lg-4">
+            <div class="card mb-3">
+              <img src="./assets/img/edu_info/khcu.png" class="card-img-top" alt="Profile Picture" style="height: 260px;width: 100%;"/>
+              <div class="card-body p-4">
+                <h5 class="card-title fonsiz-xxl fonwei-kr-xl letsp-sm">경희사이버대학교 컴공과 학사 예정</h5>
+                <p class="card-text fonsiz-sm fonwei-kr-sm color-basic-opac letsp-sm">
+                  2022년 경희사이버대학교 컴공과 학사 예정
+                  <span class="ls-0">Web, DataBase, Data Analysis</span> 분야
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-4">
+            <div class="card mb-3">
+              <img src="./assets/img/edu_info/mr.png" class="card-img-top" alt="Profile Picture" style="height: 260px;width: 100%;"/>
+              <div class="card-body p-4">
+                <h5 class="card-title fonsiz-xxl fonwei-kr-xl letsp-sm">국비지원 미래능력개발교육원 수료</h5>
+                <p class="card-text fonsiz-sm fonwei-kr-sm color-basic-opac letsp-sm">
+                  2017년 미래능력개발교육 융합소프트웨어 개발자 교육 수료
+                  <span class="ls-0">Web, DataBase</span> 분야
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-4">
+            <div class="card mb-3">
+              <img src="./assets/img/edu_info/pith.png" class="card-img-top" alt="Profile Picture" style="height: 260px;width: 100%;" />
+              <div class="card-body p-4">
+                <h5 class="card-title fonsiz-xxl fonwei-kr-xl letsp-sm">부산정보관광고등학교 호텔정보과 </h5>
+                <p class="card-text fonsiz-sm fonwei-kr-sm color-basic-opac letsp-sm">
+                  2008년 부산정보관광고등학교 호텔 정보과 졸업
+                  <span class="ls-0">Web, 호텔 관리 시스템</span> 분야
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      </div>&ndash;&gt;-->
+      <!--<div style="display: none">
+      <section class="container pt mt" id="salary">
+        <h2 class="section-header fonsiz-xxxl fonwei-en-xxl letsp-sm text-upper color-basic">Salary</h2>
+        <div class="section-desc fonsiz-sm color-basic-opac letsp-sm ws-xs mt-2 mb-4">
+          &lt;!&ndash;저의 기술과 열정으로 몇 배의 부가가치를 돌려 드리겠습니다.
+          탁월한 투자 대상이 되겠습니다.&ndash;&gt;
+        </div>
+        <div class="row">
+          <div class="col-sm-4 mb-3">
+            <div class="card mb-4 shadow-sm text-center h-100">
+              <div class="card-header">
+                <h4 class="fonsiz-md fonwei-en-xxl text-upper color-purple-opac">
+                  <span class="fonwei-en-md">Efficient</span>  Freelancer Mode
+                </h4>
+              </div>
+              <div class="card-body">
+                <div class="price-title">
+                  <h2 class="fonsiz-xxxl fonwei-en-xxl">
+                    <span class="fonsiz-xl color-basic-opac">₩</span>
+                    ±0.22M
+                    <span class="fonsiz-xl color-basic-opac">/Day</span>
+                  </h2>
+                </div>
+                <hr>
+                <ul class="list-unstyled fonsiz-md fonwei-kr-sm letsp-sm lihe-sm">
+                  <li>8시간 / 1 Day&nbsp;<span class="text-success"> ✓</span> </li>
+                  <li>주말, 공휴일 지원 &nbsp;<span class="text-success"> ✓</span> </li>
+                  <li>야간, 철야 지원 &nbsp;<span class="text-success"> ✓</span></li>
+                  <li>프론트엔드 개발 &nbsp;<span class="text-success"> ✓</span> </li>
+                  <li>백엔드 개발 &nbsp;<span class="text-success"> ✓</span> </li>
+                  <li>다소 기획 참여 &nbsp;<span class="text-success"> ✓</span> </li>
+                  <li>화상 회의 지원 &nbsp;<span class="text-success"> ✓</span> </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 mb-3">
+            <div class="card mb-4 shadow-sm text-center h-100">
+              <div class="card-header">
+                <h4 class="fonsiz-md fonwei-en-xxl text-upper color-purple-opac">
+                  <span class="fonwei-en-md">Normal</span> Developer Mode
+                </h4>
+              </div>
+              <div class="card-body">
+                <div class="price-title">
+                  <h2 class="fonsiz-xxxl fonwei-en-xxl">
+                    <span class="fonsiz-xl color-basic-opac">₩</span>
+                    ±4.20M
+                    <span class="fonsiz-xl color-basic-opac">/Mo</span>
+                  </h2>
+                </div>
+                <hr>
+                <ul class="list-unstyled fonsiz-md fonwei-kr-sm letsp-sm lihe-sm">
+                  <li>법정 근무 8시간 준수 / 1 Day &nbsp;<span class="text-success"> ✓</span> </li>
+                  <li>주말, 공휴일 근무 &nbsp;<span class="text-danger"> ×</span></li>
+                  <li>야간, 철야 근무 &nbsp;<span class="text-danger"> ×</span></li>
+                  <li>합리적인 프론트엔드 개발 &nbsp;<span class="text-success"> ✓</span></li>
+                  <li>합리적인 백엔드 개발 &nbsp;<span class="text-success"> ✓</span></li>
+                  <li>다소 기획 참여 &nbsp;<span class="text-success"> ✓</span> </li>
+                  <li>상식적인 회의 지원 &nbsp;<span class="text-success"> ✓</span> </li>
+                </ul>
+                <div class="ribbon ribbon-bottom-right"><span class="noto500">합리적인 제안</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 mb-3">
+            <div class="card mb-4 shadow-sm text-center h-100">
+              <div class="card-header">
+                <h4 class="fonsiz-md fonwei-en-xxl text-upper color-purple-opac">
+                  <span class="fonwei-en-md"> Overwhelming</span> Beast Mode
+                </h4>
+              </div>
+              <div class="card-body">
+                <div class="price-title">
+                  <h2 class="fonsiz-xxxl fonwei-en-xxl">
+                    <span class="fonsiz-xl color-basic-opac">₩</span>
+                    ±5.50M
+                    <span class="fonsiz-xl color-basic-opac">/Mo</span>
+                  </h2>
+                </div>
+                <hr>
+                <ul class="list-unstyled fonsiz-md fonwei-kr-sm letsp-sm lihe-sm">
+                  <li>법이 뭔데 ? 무조건 8시간 이상 / 1 Day&nbsp;<span class="text-success"> ✓</span> </li>
+                  <li>흥분되는 주말, 공휴일 근무&nbsp;<span class="text-success"> ✓</span></li>
+                  <li>설레는 야간, 철야 근무&nbsp;<span class="text-success"> ✓</span></li>
+                  <li>행복한 프론트엔드 개발&nbsp;<span class="text-success"> ✓</span></li>
+                  <li>짜릿한 백엔드 개발&nbsp;<span class="text-success"> ✓</span></li>
+                  <li>미칠듯이 기획 참여&nbsp;<span class="text-success"> ✓</span></li>
+                  <li>미칠듯이 회의 지원 &nbsp;<span class="text-success"> ✓</span></li>
+                </ul>              
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      </div>-->
+      <!-- contact container pt mt시작  -->
+      <section class="container pt mt" id="contact">
+<!--        <div class="row">-->
+          <div class="col-lg-7 mx-auto text-center mb-5">
+            <h2 class="section-header fonsiz-xxxl fonwei-en-xxl letsp-sm text-upper color-basic">Contact</h2>
+          </div>
+<!--        </div>-->
+<!--      </section>-->
+<!--      <section class="container backimg">-->
+        <div class="name-card d-flex justify-content-center align-items-center h-100">
+          <div class="contact-body shadow">
+            <div class="text-center mb-4">
+              <h1>KIM JI HYUK </h1>
+              <small>Java, JavaScript Fullstack Developer</small>
+            </div>
+            <div class="d-flex">
+              <img src="./assets/img/face.png" />
+              <!--<div class="ps-3">-->
+              <div class="contact-list">
+                <ul class="list-unstyled">
+                  <li>
+                    <span>
+                      <i class="bi bi-person-check-fill"></i>
+                      POSITION : <strong>Java Web Developer</strong>
+                    </span>
+                  </li>
+                  <li>
+                    <span>
+                      <i class="bi bi-telephone-inbound"></i>
+                      PHONE :
+                      <a href="tel:010-3256-1492">
+                        <strong>010-3256-1492</strong>
+                      </a>
+                    </span>
+                  </li>
+                  <li>
+                    <span>
+                      <i class="bi bi-envelope"></i>
+                      EMAIL :
+                      <a href="mailto:jhyuk1492@gmail.com">
+                        <strong>jhyuk1492@gmail.com</strong>
+                      </a>
+                    </span>
+                  </li>
+                  <li>
+                    <span style="white-space: nowrap">
+                      <i class="bi bi-linkedin"></i>
+                      LINKEDIN :
+                      <a href="https://www.linkedin.com/in/jihyuk-kim" target="_blank">
+                        <strong>https://www.linkedin.com/in/jihyuk-kim</strong>
+                      </a>
+                    </span>
+                  </li>
+                  <li>
+                    <span>
+                      <i class="bi bi-house-door"></i>
+                      WEBSITE :
+                      <a href="http://김지혁.서버.한국" target="_blank">
+                        <strong>http://김지혁.서버.한국</strong>
+                      </a>
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="contact-desc">
+              <strong>“Ain't run away.”</strong>
+            </div>
+          </div>
+        </div>
+
+        <!-- footer 시작  -->
+        <footer class="container mt-auto mb-5">
+          <div class="social-box text-center">
+          </div>
+          <div>
+            <hr>
+          </div>
+
+          <div class="license-copy text-center">
+            ⓒ 2021.
+            <a class="fonwei-en-xxl" href="http://kijepark.com/">Kije’s LAB</a> All Rights Reserved
+            <a class="fonwei-en-xxl" href="http://kijepark.com/%EA%B0%9C%EB%B0%9C%EC%9E%90-%EB%B0%95%EA%B8%B0%EC%A0%9C%EC%9D%98-%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4.html">Kije’s RESUME</a>
+            .
+            <a class="fonwei-en-xxl" href="#" data-bs-toggle="modal" data-bs-target="#myModal3">Creative Commons License</a>
+          </div>
+          <div class="modal fade" id="myModal3" tabindex="-1" aria-labelledby="myModal3Label" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="myModal3Label">THEME 라이센스 정책</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center mt-3" mb-5>
+                  <img src="./assets/svg/license.svg" alt="">
+                    <p class="modal-desc">
+                      라이센스는 <strong> 크리에이티브 커먼즈 라이센스의 저작자표시-비영리(CC BY-NC)</strong>로 저작자와 출처 등을 표시하면 저작물의 변경, 2차적 저작물의 작성을 포함하여 자유롭게 이용 하실 수 있습니다.<br/>
+                      ( 단, 영리적 이용은 허용되지 않습니다 ) <br/><br/>
+                      테마에 적용된 모든 사진 이미지는 저작권 문제로 인해 절대 사용 하시면 안됩니다.<br/><br/>
+                      문의 : <a href="mailto:kijepark@kijeslab.com">
+                        <span class="fonsiz-md fonwei-en-xl letsp-md color-purple-opac">kijepark@kijeslab.com</span>
+                      </a>
+                    </p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <!-- footer 끝  -->
+      </section>
+      <!-- Contact 끝  -->
+    </main>
+    <!-- Main 끝 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
